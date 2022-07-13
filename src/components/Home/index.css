@@ -1,0 +1,252 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+.offers-list-container {
+  width: 86%;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .offers-list-container {
+    width: 90%;
+  }
+}
+
+.offers-image {
+  height: 170px;
+  width: 100%;
+  margin: auto;
+}
+@media screen and (min-width: 768px) {
+  .offers-image {
+    height: 250px;
+  }
+}
+.popular-restaurants-container {
+  width: 90%;
+}
+@media screen and (min-width: 768px) {
+  .popular-restaurants-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+.popular-restaurant-heading {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 48px;
+  color: #183b56;
+  margin-top: 40px;
+  margin-bottom: 5px;
+}
+@media screen and (min-width: 768px) {
+  .popular-restaurant-heading {
+    font-size: 34px;
+  }
+}
+.popular-restaurant-description {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #64748b;
+  margin-top: 5px;
+}
+.filter-container {
+  display: flex;
+  align-items: center;
+}
+.filter-icon {
+  height: 30px;
+  width: 30px;
+  margin-right: 5px;
+  color: #475569;
+}
+.sort-by-container {
+  border: none;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+  outline: none;
+}
+.sort-by {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+}
+@media screen and (min-width: 768px) {
+  .sort-by {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .sort-by-container {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .horizontal-line {
+    color: #cbd2d9;
+    width: 90%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+}
+
+.offers-loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 25vh;
+}
+.restaurant-list-loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 35vh;
+}
+
+.restaurant-list-container {
+  width: 90%;
+  padding-left: 0px;
+}
+@media screen and (min-width: 768px) {
+  .restaurant-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+.pagination-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.pagination-icon {
+  color: #334155;
+  height: 20px;
+  width: 20px;
+}
+.pagination-button {
+  height: 40px;
+  width: 40px;
+  background: transparent;
+  border: 1px solid #334155;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.pagination-active-number {
+  font-family: 'Bree Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+
+  color: #334155;
+}
+
+.search-input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 35px;
+  background-color: #e5e5e5;
+  border-radius: 5px;
+}
+@media screen and (min-width: 768px) {
+  .search-container {
+    width: 50%;
+    align-self: flex-end;
+  }
+}
+.search-input {
+  width: 95%;
+  border: none;
+  outline: none;
+  height: 35px;
+  background: transparent;
+  padding-left: 10px;
+  font-size: 16px;
+  color: #64748b;
+  font-weight: 600;
+}
+.search-icon {
+  height: 20px;
+  width: 20px;
+  color: #64748b;
+}
+.no-results-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}
+.no-restaurant-found-image {
+  height: 200px;
+  width: 200px;
+}
+@media screen and (min-width: 768px) {
+  .no-restaurant-found-image {
+    height: 250px;
+    width: 250px;
+  }
+}
+.no-restaurant-found-heading {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 48px;
+  color: #183b56;
+  margin-bottom: 5px;
+}
+@media screen and (min-width: 768px) {
+  .no-restaurant-found-heading {
+    font-size: 28px;
+  }
+}
+.no-restaurant-found-description {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #64748b;
+  margin-top: 5px;
+}
+@media screen and (min-width: 768px) {
+  .no-restaurant-found-description {
+    font-size: 18px;
+  }
+}

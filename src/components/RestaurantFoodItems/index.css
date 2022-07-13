@@ -1,0 +1,125 @@
+.restaurant-food-items-list {
+  list-style-type: none;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .restaurant-food-items-list {
+    width: 50%;
+  }
+}
+.food-items-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.restaurant-food-item-details {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+@media screen and (min-width: 768px) {
+  .restaurant-food-item-details {
+    width: 70%;
+  }
+}
+.food-item-image {
+  height: 120px;
+  width: 180px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+@media screen and (min-width: 768px) {
+  .food-item-image {
+    height: 150px;
+    width: 240px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .food-item-details {
+    width: 40%;
+  }
+}
+.food-item-name {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #334155;
+  margin-bottom: 5px;
+}
+.food-item-cost {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #334155;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.food-item-star {
+  height: 20px;
+  width: 20px;
+  color: #ffcc00;
+  margin-right: 5px;
+}
+.food-item-rating {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #0a1f44;
+  margin-top: 5px;
+}
+.add-button {
+  border: 1px solid #ffa412;
+  background: transparent;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffa412;
+  height: 30px;
+  width: 55px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.counter-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.count-button {
+  height: 25px;
+  width: 25px;
+  background: transparent;
+  color: #475569;
+  border: 1px solid #475569;
+  border-radius: 4px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.active-count {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+  margin-left: 10px;
+  margin-right: 10px;
+}

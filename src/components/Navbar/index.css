@@ -1,0 +1,166 @@
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  background-color: #f8fafc;
+}
+.navbar-details-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+.navbar-logo-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-website-logo {
+  margin-right: 10px;
+}
+@media screen and (max-width: 768px) {
+  .navbar-website-logo {
+    height: 35px;
+    width: 35px;
+  }
+}
+.navbar-website-name {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #f7931e;
+}
+@media screen and (max-width: 768px) {
+  .navbar-website-name {
+    font-size: 18px;
+  }
+}
+.link {
+  text-decoration: none;
+}
+.navbar-options-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 80%;
+}
+@media screen and (max-width: 768px) {
+  .navbar-options-container {
+    display: none;
+  }
+}
+.option {
+  list-style-type: none;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.355556px;
+  color: #334155;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.logout-button {
+  background-color: #f7931e;
+  height: 35px;
+  width: 90px;
+  border: none;
+  border-radius: 7px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 16px;
+  color: #ffffff;
+  cursor: pointer;
+  margin-left: 40px;
+}
+@media screen and (max-width: 768px) {
+  .logout-button {
+    display: none;
+  }
+}
+.hamburger-menu-icon {
+  height: 30px;
+  width: 30px;
+}
+@media screen and (min-width: 768px) {
+  .hamburger-menu-icon {
+    display: none;
+  }
+}
+.cart-list-count {
+  background-color: #f7931e;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-size: 13px;
+  color: #ffffff;
+  margin-left: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 20px;
+}
+.navbar-mobile-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .navbar-mobile-container {
+    display: none;
+  }
+}
+.navbar-mobile-options-container {
+  height: 10vh;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mobile-option {
+  list-style-type: none;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.355556px;
+  color: #334155;
+}
+.logout-mobile-button {
+  background-color: #f7931e;
+  height: 35px;
+  width: 90px;
+  border: none;
+  border-radius: 7px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 16px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.hamburger-button {
+  background: transparent;
+  cursor: pointer;
+  border: none;
+}
+.close-icon {
+  height: 20px;
+  width: 20px;
+}
+.close-button {
+  background: transparent;
+  cursor: pointer;
+  border: none;
+}

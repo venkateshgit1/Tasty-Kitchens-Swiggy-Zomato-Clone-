@@ -1,0 +1,51 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.not-found-image {
+  height: 150px;
+  width: 150px;
+}
+@media screen and (min-width: 768px) {
+  .not-found-image {
+    height: 250px;
+    width: 250px;
+  }
+}
+.not-found-heading {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #1e293b;
+  margin-bottom: 5px;
+}
+.not-found-description {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  width: 80%;
+  color: #475569;
+  margin-top: 10px;
+}
+.not-found-button {
+  background: #f7931e;
+  height: 40px;
+  width: 100px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}

@@ -1,0 +1,64 @@
+.payment-success-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+@media screen and (min-width: 768px) {
+  .payment-success-image {
+    height: 100px;
+    width: 100px;
+  }
+}
+.order-success-heading {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: #1e293b;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .order-success-heading {
+    font-size: 28px;
+  }
+}
+.order-success-description {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #64748b;
+  width: 80%;
+  text-align: center;
+  margin-top: 5px;
+}
+@media screen and (min-width: 768px) {
+  .order-success-description {
+    font-size: 18px;
+  }
+}
+.go-to-home-button {
+  cursor: pointer;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  background: #f7931e;
+  border-radius: 8px;
+  height: 35px;
+  width: 135px;
+  border: none;
+}
+@media screen and (min-width: 768px) {
+  .go-to-home-button {
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
+  }
+}
